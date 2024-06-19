@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitung IPS Adik"</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .form-control {
+            margin-top: 10px;
+            display: block;
+        }
+        .label-predikat {
+            margin-top: 10px;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <form>
+            <div class="form-group">
+                <label for="jumlahMatkul">Masukkan jumlah matkul</label>
+                <input id="jumlahMatkul" type="number" class="form-control">
+            </div>
+            <div id="nilaiPredikatContainer"></div>
+            <div class="form-group mt-3">
+                <input id="totalIPS" class="form-control" type="text" value="Total IPS" aria-label="readonly" readonly>
+            </div>
+            <div class="form-group mt-3">
+                <p id="komentar" class="font-weight-bold"></p>
+            </div>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
